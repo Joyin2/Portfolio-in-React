@@ -1,6 +1,17 @@
-#mobile i{
-    color: black;
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
 }
+
+.n-left{
+    flex: 1;
+    background-color: gray;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
 
 @media screen and (max-width:769px) {
     
