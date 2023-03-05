@@ -2,7 +2,7 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 .n-left{
@@ -34,6 +34,24 @@
     gap: 2rem;
     margin-right: 4rem;
 }
+
+.n-list>ul>li:hover{
+    cursor: pointer;
+
+    color: var(--orange);
+}
+
+.n-button{
+    flex: 2;
+}
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:769px) {
