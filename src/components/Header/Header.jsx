@@ -2,7 +2,6 @@ import React from "react";
 import "./Header.css";
 
 const Header = () => {
-    
   return (
     <div className="n-wrapper">
       <div className="n-left">
@@ -11,7 +10,7 @@ const Header = () => {
       </div>
       <div className="n-right">
         <div className="n-list">
-          <ul style={{listStyleType:"none"}}>
+          <ul style={{ listStyleType: "none" }}>
             <li>Home</li>
             <li>Services</li>
             <li>Exprience</li>
@@ -19,9 +18,7 @@ const Header = () => {
             <li>Testimonials</li>
           </ul>
         </div>
-        <button className="button">
-          Contact us
-        </button>
+        <button className="button">Contact</button>
       </div>
     </div>
   );
