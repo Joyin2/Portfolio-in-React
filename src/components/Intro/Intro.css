@@ -30,7 +30,7 @@
 }
 
 .i-name > :nth-child(3) {
-  font-weight: 100;
+  /* font-weight: 100; */
   font-size: 14px;
   color: var(--gray);
   margin-top: 10px;
@@ -47,7 +47,7 @@
   gap: 0rem;
 }
 
-.i-icons img {
+.i-icons>* {
   width: 4rem;
   height: 4rem;
   transform: scale(0.5);

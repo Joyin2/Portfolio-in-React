@@ -31,6 +31,9 @@
 
 .n-list > ul {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
   gap: 2rem;
   margin-right: 4rem;
 }
