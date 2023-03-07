@@ -4,7 +4,7 @@ import Intro from "./components/Intro/Intro";
 import Services from "./components/Services/Services";
 import "./App.css";
 import Card from "./components/Card/Card";
-
+import Experience from "./components/Experience/Experience";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Intro />
       <Services/>
-     
+      <Experience/>
     </div>
   );
 }
