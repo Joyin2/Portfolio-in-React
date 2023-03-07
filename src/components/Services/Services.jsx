@@ -16,7 +16,7 @@ const Services = () => {
         <span>services</span>
         <span>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-          <br /> aspernatur dolor Lorem ipsum dolor sit amet.{" "}
+          <br /> aspernatur dolor Lorem ipsum dolor sit amet.
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>

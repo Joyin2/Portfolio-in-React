@@ -5,6 +5,7 @@ import Services from "./components/Services/Services";
 import "./App.css";
 import Card from "./components/Card/Card";
 import Experience from "./components/Experience/Experience";
+import Work from "./components/Work/Work";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Intro />
       <Services/>
       <Experience/>
+      <Work/>
     </div>
   );
 }
