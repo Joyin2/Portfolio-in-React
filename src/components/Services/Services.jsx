@@ -1,10 +1,11 @@
 import React from "react";
-import "./Services.css";
+
 import Card from "../Card/Card";
 import HeartEmoji from "../../images/heartemoji.png";
 import Glasses from "../../images/glasses.png";
 import Humble from "../../images/humble.png";
 import Resume from "../../components/Services/Joyin fullstack.pdf"
+import "./Services.css";
 
 const Services = () => {
   return (
