@@ -7,17 +7,19 @@ import Experience from "./components/Experience/Experience";
 import Work from "./components/Work/Work";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonial from "./components/Testimonial/Testimonial";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Intro />
-      <Services/>
-      <Experience/>
-      <Work/>
-      <Portfolio/>
-      <Testimonial/>
+      <Services />
+      <Experience />
+      <Work />
+      <Portfolio />
+      <Testimonial />
+      <Contact />
     </div>
   );
 }
