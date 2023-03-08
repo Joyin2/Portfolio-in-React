@@ -3,9 +3,9 @@ import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
 import Services from "./components/Services/Services";
 import "./App.css";
-import Card from "./components/Card/Card";
 import Experience from "./components/Experience/Experience";
 import Work from "./components/Work/Work";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Services/>
       <Experience/>
       <Work/>
+      <Portfolio/>
     </div>
   );
 }
