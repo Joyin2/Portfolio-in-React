@@ -1,5 +1,4 @@
 import React from "react";
-
 import Card from "../Card/Card";
 import HeartEmoji from "../../images/heartemoji.png";
 import Glasses from "../../images/glasses.png";
