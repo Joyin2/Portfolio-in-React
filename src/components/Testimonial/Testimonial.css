@@ -77,13 +77,27 @@
   color: var(--orange);
 }
 
-
-@media screen and (max-width: 480px){
-    .t-wrapper{
-        padding: 0;
-    }
-    .testimonial>img{
-        width: 70px;
-        height: 70px;
-    }
+@media screen and (max-width: 480px) {
+  .t-wrapper {
+    padding: 0;
+    /* width: 100%;
+    align-items: center;
+    justify-content: center; */
   }
+  .t-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonial {
+    /* height: 20rem; */
+    width: 100%;
+    /* padding: 5px; */
+    /* gap: 2rem; */
+  }
+  .testimonial > img {
+    width: 70px;
+    height: 70px;
+  }
+}

@@ -92,16 +92,30 @@
 @media screen and (max-width: 480px) {
   .works {
     flex-direction: column;
-    height: 55rem;
+    /* height: 55rem; */
     padding: 0;
     gap: 5rem;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .awesome>*:nth-child(1){
+    text-align: center;
+    
+  }
+   .awesome>*:nth-child(2){
+    width: 100%;
+    text-align: center;
+    
   }
 
   .w-right {
     display: flex;
     align-items: flex-start;
-    justify-content:start;
+    justify-content:center;
     transform: scale(0.7);
+    
+
   }
   .w-mainCircle{
     position: static;
