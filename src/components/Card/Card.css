@@ -36,3 +36,10 @@
   font-size: 14px;
   color: #5290fd;
 }
+
+
+@media screen and (max-width: 480px){
+  .card{
+    width: auto;
+  }
+}
