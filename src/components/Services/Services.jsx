@@ -4,14 +4,18 @@ import HeartEmoji from "../../images/heartemoji.png";
 import Glasses from "../../images/glasses.png";
 import Humble from "../../images/humble.png";
 import Resume from "../../components/Services/Joyin fullstack.pdf"
+import { themeContext } from "../../Context";
+import { useContext } from "react";
 import "./Services.css";
 
 const Services = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="services">
       {/* left side */}
       <div className="awesome">
-        <span>My Awesome</span>
+        <span style={{color: darkMode? 'white':''}}>My Awesome</span>
         <span>services</span>
         <span>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A
