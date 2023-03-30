@@ -16,9 +16,9 @@ import { useContext } from "react";
 import { motion } from "framer-motion";
 
 const Intro = () => {
-  const transition = { duration: 2, type: "spring" };
+  const transition = { duration: 3, type: "spring" };
   const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
+  const darkMode = theme.state.darkMode || false;
   return (
     <div className="intro">
       <div className="i-left">
@@ -56,7 +56,13 @@ const Intro = () => {
           style={{ top: "-4%", left: "68%" }}
           className="floating-div"
         >
-          <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
+          <FloatingDiv
+            image={Crown}
+            txt1="Web"
+            txt2="Developer"
+            
+            style={{ color: darkMode ? "white" : "" }}
+          />
         </motion.div>
         <motion.div
           initial={{ top: "18rem", left: "9rem" }}

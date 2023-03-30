@@ -42,6 +42,9 @@
   cursor: pointer;
   color: var(--orange);
 }
+.n-list > ul > li:hover {
+  color: var(--orange);
+}
 
 .n-button {
   flex: 2;
