@@ -2,6 +2,8 @@
   height: 10vh;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: 100;
   /* background-color: gray; */
 }
 
@@ -38,13 +40,13 @@
   margin-right: 4rem;
 }
 
-.n-list > ul > *:hover {
+.n-list > ul > *>li:hover {
   cursor: pointer;
   color: var(--orange);
 }
-.n-list > ul > li:hover {
+/* .n-list > ul > li:hover {
   color: var(--orange);
-}
+} */
 
 .n-button {
   flex: 2;

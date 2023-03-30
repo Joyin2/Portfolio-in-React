@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
 import Services from "./components/Services/Services";
@@ -12,24 +12,41 @@ import Footer from "./components/Footer/Footer";
 import { themeContext } from "./Context";
 
 function App() {
-  const theme = useContext(themeContext)
+  const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
   return (
-    <div className="App"
-    style={{
-      background : darkMode? 'black': '',
-      color : darkMode? 'white': ''
-    }}
+    <div
+      className="App"
+      style={{
+        background: darkMode ? "black" : "",
+        color: darkMode ? "white" : "",
+      }}
     >
-      <Header />
-      <Intro />
-      <Services />
-      <Experience />
-      <Work />
-      <Portfolio />
-      <Testimonial />
-      <Contact />
-      <Footer/>
+      {loading ? (
+        <div className="loader-container">
+          <div className="spinner"></div>
+        </div>
+      ) : (
+        <div>
+          <Header />
+          <Intro />
+          <Services />
+          <Experience />
+          <Work />
+          <Portfolio />
+          <Testimonial />
+          <Contact />
+          <Footer />
+        </div>
+      )}
     </div>
   );
 }
