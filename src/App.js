@@ -10,7 +10,6 @@ import Testimonial from "./components/Testimonial/Testimonial";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { themeContext } from "./Context";
-import Price from "./components/Price/Price";
 
 function App() {
   const theme = useContext(themeContext);
@@ -43,7 +42,7 @@ function App() {
           <Experience />
           <Work />
           <Portfolio />
-          <Price/>
+         
           <Testimonial />
           <Contact />
           <Footer />
